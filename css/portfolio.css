@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 120px 0;
+ /* padding: 120px 0; */
 }
 
 .portfolio-title {
@@ -9,14 +9,14 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .portfolio-list {
   /* display: flex; */
   /* flex-wrap: wrap; /*  дозволяє переносити картки на новий рядок */ */
   /* column-gap: 24px; /* відступ між колонками */ */
-  row-gap: 48px; /* відступ між рядками */
+  /* row-gap: 48px; /* відступ між рядками */
 }
 
 .portfolio-item {
@@ -27,9 +27,9 @@
 }
 
 .portfolio-content {
-  padding: 32px 16px; /* внутрішні відступи 32пкс зверху\знизу 
+  /* padding: 32px 16px; /* внутрішні відступи 32пкс зверху\знизу 
     і 16пкс ліво\право.шоб текст не торкався рамок */
-  border: 1px solid #e7e9fc; /* тонка рамка навколо тексту */
+  /* border: 1px solid #e7e9fc; /* тонка рамка навколо тексту */ */
   border-top: none; /*прибираємо рамку зверху, шоб не було подвійної рамки*/
 }
 
@@ -39,7 +39,7 @@
   line-height: 1.2; /* висота рядка 24пкс/20пкс=1,2 */
   letter-spacing: 0.02em; /* відступ між буквами */
   color: #2e2f42;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .portfolio-text {
