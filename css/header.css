@@ -30,6 +30,11 @@
   color: #2e2f42;
   /* padding: 24px 0; */
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .header-link:hover,
+  .header-link:focus {
+    color: #404bbf;
+  }
 }
 
 .address-list {
@@ -43,7 +48,14 @@
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
